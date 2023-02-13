@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "avenir";
+  src: url(../../styles/Font/AvenirNextLTPro-Regular.otf) format("opentype"), url(../../styles/Font/AlternativeFiles/AvenirNextLTPro.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "avenir";
+  src: url(../../styles/Font/AvenirNextLTPro-Bold.otf) format("opentype"), url(../../styles/Font/AlternativeFiles/AvenirNextLTProBold.ttf) format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+.Rampage {
+  padding: 0 16px;
+}
+.Rampage__highlight {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  text-align: left;
+  margin: 16px 0;
+  font-family: "avenir";
+}
+.Rampage__info {
+  border-top: solid 1px gray;
+}
+.Rampage__info__text-viewIcon {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: bold;
+  text-align: left;
+  font-family: "avenir";
+}
+.Rampage__info__text-viewIcon--right {
+  display: flex;
+  margin-left: 100px;
+}
+.Rampage__info__text-viewIcon--number {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: normal;
+  color: #afafaf;
+}
+.Rampage__info__icon {
+  margin-right: 10px;
+  width: 25px;
+}
+.Rampage__info__date-likes {
+  display: flex;
+  border-bottom: solid 1px gray;
+}
+.Rampage__info__date-likes--right {
+  display: flex;
+  margin-left: 90px;
+}
+.Rampage__description {
+  text-align: left;
+  margin: 16px 0 30px 0;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.Rampage__description__CommentsNum {
+  font-weight: bold;
+  text-align: left;
+}
+
+.commentImg {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin-top: 1.5rem;
+  margin-right: 16px;
+}/*# sourceMappingURL=Rampage.css.map */

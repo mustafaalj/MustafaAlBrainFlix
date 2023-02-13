@@ -1,0 +1,73 @@
+@use "../../styles/Versions.scss" as *;
+.SideVideoBox {
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  &__info {
+    @include tablet {
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+    }
+  }
+  &__img {
+    display: flex;
+    aspect-ratio: 3/2;
+
+    height: 65px;
+    width: 120px;
+    border-radius: 4px;
+    object-fit: cover;
+    margin: 8px 0 8px 0;
+    align-items: center;
+    @include desktop {
+      height: 50px;
+      margin: 0 0 0 0;
+    }
+    & > img {
+      background-color: #e1e1e1;
+    }
+  }
+  &__text {
+    font-family: "avenir";
+
+    float: left;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: normal;
+    text-align: left;
+    margin: 8px 0 8px 16px;
+    @include tablet {
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    &--bold {
+      font-weight: bold;
+    }
+  }
+}
+.SideVideoBox__video {
+  display: flex;
+  @include desktop {
+    width: 25%;
+    position: relative;
+    left: 75%;
+    bottom: 750px;
+  }
+}
+.SideVideoSpan {
+  color: #afafaf;
+  text-align: left;
+  margin: 0 0 16px 16px;
+  padding-top: 16px;
+  font-size: 13px;
+  font-weight: bold;
+  border-top: #e1e1e1 solid 1px;
+  @include desktop {
+    position: relative;
+    position: relative;
+    left: 73%;
+    bottom: 750px;
+  }
+}

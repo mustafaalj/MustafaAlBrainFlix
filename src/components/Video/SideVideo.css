@@ -1,0 +1,45 @@
+.SideVideoBox {
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.SideVideoBox__img {
+  display: flex;
+  aspect-ratio: 3/2;
+  height: 65px;
+  width: 120px;
+  border-radius: 4px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 8px 0 8px 0;
+  align-items: center;
+}
+.SideVideoBox__img > img {
+  background-color: #e1e1e1;
+}
+.SideVideoBox__text {
+  font-family: "avenir";
+  float: left;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: normal;
+  text-align: left;
+  margin: 8px 0 8px 16px;
+}
+.SideVideoBox__text--bold {
+  font-weight: bold;
+}
+
+.SideVideoBox__video {
+  display: flex;
+}
+
+.SideVideoSpan {
+  color: #afafaf;
+  text-align: left;
+  margin: 0 0 16px 16px;
+  padding-top: 16px;
+  font-size: 13px;
+  font-weight: bold;
+  border-top: #e1e1e1 solid 1px;
+}/*# sourceMappingURL=SideVideo.css.map */

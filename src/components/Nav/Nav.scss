@@ -1,0 +1,128 @@
+@use "../../styles/Versions.scss" as *;
+
+.search {
+  display: flex;
+  align-items: center;
+
+  margin-top: 10px;
+
+  @include tablet {
+    width: 40%;
+  }
+  &__right > input {
+    border: none;
+    background-color: #fafafa;
+    color: black;
+  }
+  &__right {
+    // tablet
+    @include tablet {
+      margin-left: 36px;
+      margin-bottom: 10px;
+      height: 45px;
+    }
+    @include desktop {
+      margin-left: 36px;
+      margin-bottom: 10px;
+      height: 30px;
+      position: relative;
+      left: 90px;
+    }
+    border: solid #e1e1e1 1px;
+    border-radius: 5px;
+    display: flex;
+    background-color: #fafafa;
+    width: 80%;
+    height: 40px;
+  }
+  &__img {
+    border-radius: 50%;
+    width: 15%;
+    height: 2.8rem;
+    margin-left: 10px;
+    margin-top: 5px;
+    //tablet
+    @include tablet {
+      position: relative;
+      left: 220px;
+      bottom: 8px;
+      height: 55px;
+    }
+    @include desktop {
+      position: relative;
+      left: 65%;
+      bottom: 8px;
+      height: 30px;
+    }
+  }
+  &__icon {
+    height: 20px;
+    margin: 10px;
+  }
+}
+
+.nav {
+  padding: 0 16px;
+  min-width: 288px;
+  // tablet
+  @include tablet {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  &__logo {
+    // tablet
+    @include tablet {
+      height: 35px;
+      margin-right: 50px;
+    }
+    @include desktop {
+      height: 20px;
+      margin-right: 50px;
+    }
+    height: 25px;
+    margin-top: 16px;
+    margin-left: 8%;
+  }
+  &__uploadButton:hover {
+    background-color: #0065ad;
+  }
+  &__uploadButton {
+    @include tablet {
+      width: 200px;
+      margin-right: 60px;
+    }
+    @include desktop {
+      height: 25px;
+      width: 150px;
+    }
+
+    background-color: #0095ff;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+    &__text {
+      font-size: 13px;
+      line-height: 20px;
+      font-weight: 700;
+      color: white;
+      margin-left: 30%;
+    }
+  }
+  &__uploadButton > img {
+    float: left;
+    height: 30px;
+    margin: 10px;
+    @include tablet {
+      height: 20px;
+    }
+    @include desktop {
+      margin: 0;
+      width: 20px;
+    }
+  }
+}

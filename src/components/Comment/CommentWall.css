@@ -1,0 +1,46 @@
+.card {
+  border-top: solid 1px #e1e1e1;
+  margin: 16px;
+}
+.card > div > img {
+  border-radius: 50%;
+  width: 2.8rem;
+  height: 2.8rem;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.nameComment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.card__comments {
+  margin: 10px 10px 10px 50px;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.card__date {
+  color: #afafaf;
+}
+
+.emptyImg {
+  border-radius: 50%;
+  height: 2.8rem;
+  width: 2.8rem;
+  background-color: #e1e1e1;
+  margin: 5px 16px 0 0px;
+}
+
+.nameCommentDate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}/*# sourceMappingURL=CommentWall.css.map */

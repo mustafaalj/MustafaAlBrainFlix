@@ -1,0 +1,60 @@
+.CommentWallForm__buttom {
+  color: white;
+  border: none;
+  width: 220px;
+  height: 45px;
+  cursor: pointer;
+  background-color: #0095ff;
+  border-radius: 5px;
+  font-size: 13px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  margin-top: 1rem;
+  margin-bottom: 16px;
+}
+.CommentWallForm__buttom > img {
+  float: left;
+  height: 25px;
+  margin: 10px;
+}
+.CommentWallForm__buttom > button {
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 700;
+  background-color: #0095ff;
+  border: none;
+  color: white;
+  margin-top: 14px;
+}
+
+.field {
+  display: flex;
+  border: none;
+  max-width: 288px;
+  padding: 0;
+}
+.field__labelText {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  float: left;
+  color: #afafaf;
+  margin-top: 16px;
+}
+.field__img {
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  margin-top: 35px;
+  margin-right: 16px;
+}
+.field__sec--wall {
+  display: block;
+}
+
+.input {
+  height: 100px;
+  width: 220px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  margin-top: 5px;
+}/*# sourceMappingURL=Comment.css.map */

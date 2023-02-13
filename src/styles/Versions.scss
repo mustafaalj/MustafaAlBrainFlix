@@ -1,0 +1,15 @@
+//breakpoints
+$tablet-width: 600px;
+$desktop-width: 1024px;
+//tablet
+@mixin tablet {
+  @media (min-width: $tablet-width) {
+    @content;
+  }
+}
+//Desktop
+@mixin desktop {
+  @media (min-width: $desktop-width) {
+    @content;
+  }
+}
